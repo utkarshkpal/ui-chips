@@ -1,0 +1,80 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  .main {
+    color: rgba(0, 0, 0, 0.66);
+
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+
+    width: 534px;
+    .line {
+      background: #74b9ff;
+      height: 2px;
+      width: 530px;
+      position: absolute;
+      margin-top: 42px;
+    }
+    .all-chips {
+      display: flex;
+      justify-content: flex-start;
+      max-height: 36px;
+    }
+    .holder {
+      input {
+        border: none;
+        height: 30px;
+        font-size: 15px;
+        width: 500px;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .list {
+        margin-top: 21px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px,
+          rgba(0, 0, 0, 0.12) 0px 1px 4px;
+        min-width: 150px;
+        max-width: 150px;
+        .list-item {
+          padding-left: 20px;
+          padding-right: 20px;
+          padding: 10px;
+          cursor: pointer;
+          &:hover {
+            background: #e8e8e8;
+          }
+        }
+      }
+    }
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    .chip {
+      background: #e8e8e8;
+      display: flex;
+      justify-content: space-around;
+      border-radius: 24px;
+      margin-right: 20px;
+      .chip-name {
+        padding: 9px;
+      }
+      .remove {
+        padding: 5px;
+        cursor: pointer;
+        background: lightgray;
+        border-radius: 12px;
+        height: 14px;
+        width: 16px;
+        margin-top: 5px;
+        margin-right: 6px;
+      }
+    }
+  }
+}

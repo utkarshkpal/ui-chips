@@ -1,0 +1,61 @@
+.outer {
+  display: flex;
+  justify-content: center; }
+  .outer .main {
+    color: rgba(0, 0, 0, 0.66);
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    width: 534px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px; }
+    .outer .main .line {
+      background: #74b9ff;
+      height: 2px;
+      width: 530px;
+      position: absolute;
+      margin-top: 42px; }
+    .outer .main .all-chips {
+      display: flex;
+      justify-content: flex-start;
+      max-height: 36px; }
+    .outer .main .holder input {
+      border: none;
+      height: 30px;
+      font-size: 15px;
+      width: 500px; }
+      .outer .main .holder input:focus {
+        outline: none; }
+    .outer .main .holder .list {
+      margin-top: 21px;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+      min-width: 150px;
+      max-width: 150px; }
+      .outer .main .holder .list .list-item {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 10px;
+        cursor: pointer; }
+        .outer .main .holder .list .list-item:hover {
+          background: #e8e8e8; }
+    .outer .main .chip {
+      background: #e8e8e8;
+      display: flex;
+      justify-content: space-around;
+      border-radius: 24px;
+      margin-right: 20px; }
+      .outer .main .chip .chip-name {
+        padding: 9px; }
+      .outer .main .chip .remove {
+        padding: 5px;
+        cursor: pointer;
+        background: lightgray;
+        border-radius: 12px;
+        height: 14px;
+        width: 16px;
+        margin-top: 5px;
+        margin-right: 6px; }
